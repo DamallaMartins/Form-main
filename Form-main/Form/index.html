@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contatos</title>
+</head>
+
+<body>
+    <header>
+        <H1>CADASTRO PESSOAL</H1>
+        <img src="img/logo.jpg" alt="Imagem de um icone de cadastro">
+    </header>
+    <div>
+        <form action="">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <div class="grid-container">
+                    <div>
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" required>
+                        <label for="email">E-Mail</label>
+                        <input type="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="datanascimento">Nascimento</label>
+                        <input type="date" name="datanascimento" required>
+                    </div>
+                    <div>
+                        <label for="rg">RG</label>
+                        <input type="text" name="rg">
+                    </div>
+                    <div>
+                        <label for="cpf">CPF</label>
+                        <input type="text" name="cpf" required>
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Endereço</legend>
+                <div class="grid-container">
+                    <div>
+                        <label for="rua">Rua</label>
+                        <input type="text" name="rua" required>
+                        <label for="número">Número</label>
+                        <input type="number" name="número" required>
+                    </div>
+                    <div>
+                        <label for="bairro">Bairro</label>
+                        <input type="text" name="bairro">
+                    </div>
+                    <div>
+                        <label for="">Estado</label>
+                        <select name="" required>
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="cidade">Cidade</label>
+                        <input type="text" name="cidade">
+                    </div>
+                    <div>
+                        <label for="cep">CEP</label>
+                        <input type="text" name="cep" placeholder="00000-000" pattern="\d{5}\-\d{3}">
+                    </div>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Login</legend>
+                <div class="grid-container">
+                    <div>
+                        <label for="imagem de perfil">Imagem de Perfil</label>
+                        <input type="file" name="imagem de perfil">
+                    </div>
+                    <div>
+                        <label for="login de usuario">Login de usuário</label>
+                        <input type="text" name="login de usuario" required>
+                    </div>
+                    <div>
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" required>
+                    </div>
+                    <div>
+                        <label for="confirme senha">Confirme a Senha</label>
+                        <input type="password" name="confirme senha" required>
+                    </div>
+                </div>
+            </fieldset>
+            <input type="submit" name="botao enviar" value="Enviar Dados">
+            <input type="reset" name="botao limpar" value="Limpar">
+        </form>
+    </div>
+    <div>
+        <footer>
+            <p><a href="http://"> Termo de Uso</a> | <a href="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm"> LGPD</a></p>
+        </footer>
+    </div>
+</body>
+
+</html>

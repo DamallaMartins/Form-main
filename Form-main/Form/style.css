@@ -1,0 +1,27 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 80%;
+    margin: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+
+fieldset {
+    background-color: rgb(231, 231, 231);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+legend {
+    font-weight: bold;
+}
+
